@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup component</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="left">
+            <h1>Learn to code by watching others</h1>
+            <p>See how experienced developers solve problems in real-time. watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
+        </div>
+
+        <div class="right">
+
+            <div class="tryDiv">
+                <p><span>Try it free 7 days</span> then $20/mo. thereafter</p>
+            </div>
+
+            <form action="send">
+
+                <div>
+                    <input class="firstInput" type="name" placeholder="First name">
+                    <p class="errorMessages error1">First Name cannot be empty</p>
+                </div>
+                
+                <div>
+                    <input class="secondInput" type="name" placeholder="Last Name">
+                    <p class="errorMessages error2">Last Name cannot be empty</p>
+                </div>
+                
+                <div>
+                    <input class="thirdInput" type="email" placeholder="Email Address">
+                    <p class="errorMessages error3">Looks like this is not a email</p>
+                </div>
+                
+                <div>
+                    <input class="fourInput" type="password" placeholder="Password">
+                    <p class="errorMessages error4">Password cannot be empty</p>
+                </div>
+                
+                <button class="boton" type="button">CLAIM YOUR FREE TRIAL</button>
+                
+                <p class="terms">By clickingthe button, you are agreeingto our <span>Terms and Services</span></p>
+            </form>
+        </div>
+
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
